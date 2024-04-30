@@ -34,12 +34,17 @@ public class ArrayIntList implements IntList{
 
     @Override
     public int indexOf(int value) {
+        for (int i = 1; i <= size; i++) {
+            if (elementData[i] == value) {
+                return i;
+            }
+        }
         return 0;
     }
 
     @Override
     public void add(int index, int value) {
-
+        return elementData[index] = value;
     }
 
     @Override
