@@ -11,6 +11,11 @@ public class Driver {
         System.out.println(list);
         System.out.println(list.size());
         System.out.println(list.get(2));
+        list.remove(2);
+        System.out.println(list);
+        list.add(1, 7);
+        System.out.println(list);
+        System.out.println(list.indexOf(9));
 
         System.out.println();
 
@@ -22,5 +27,10 @@ public class Driver {
         System.out.println(myList);
         System.out.println(myList.size());
         System.out.println(myList.get(2));
+        myList.remove(2);
+        System.out.println(myList);
+        myList.add(1,7);
+        System.out.println(myList);
+        System.out.println(myList.indexOf(9));
     }
 }
